@@ -1,0 +1,34 @@
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .link-item {
+    flex: 1;
+    max-width: 300px;
+  }
+
+  .link-item a {
+    color: white;
+  }
+  
+  .link-item img {
+    width: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .link-item p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .link-item small {
+    display: block;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
